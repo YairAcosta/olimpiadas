@@ -1,0 +1,52 @@
+{
+  "name": "olimpiadas-programacion",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "server": "nodemon --exec tsx src/server/index.ts",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.1.1",
+    "@types/bcryptjs": "^2.4.6",
+    "axios": "^1.10.0",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "framer-motion": "^12.17.3",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.514.0",
+    "mysql2": "^3.14.1",
+    "next": "15.3.3",
+    "nodemon": "^3.1.10",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hook-form": "^7.58.0",
+    "react-hot-toast": "^2.5.2",
+    "react-icons": "^5.5.0",
+    "tsx": "^4.20.2",
+    "zod": "^3.25.64"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/bcrypt": "^5.0.2",
+    "@types/cookie-parser": "^1.4.9",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/express-session": "^1.18.2",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "morgan": "^1.10.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
